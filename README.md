@@ -1,8 +1,11 @@
-Webknot Assignment
+# Webknot Assignment
 
 This project is a full-stack application that demonstrates event management features such as student attendance, popularity analysis, and feedback tracking. It includes a Node.js backend, SQL database setup, and visualization screenshots.
 
-📂 Project Structure
+---
+
+## 📂 Project Structure
+```
 ├── server.js               # Node.js backend server
 ├── package.json            # Project dependencies
 ├── db_init.sql             # Database schema initialization
@@ -17,71 +20,74 @@ This project is a full-stack application that demonstrates event management feat
 ├── reports.md              # Analysis & findings
 ├── design_doc.md           # System design documentation
 └── ai_conversation_log.txt # Development discussion log
+```
 
-🚀 Getting Started
-1. Clone the Repository
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
 git clone https://github.com/yourusername/webknot-assignment.git
 cd webknot-assignment
+```
 
-2. Install Dependencies
+### 2. Install Dependencies
+```bash
 npm install
+```
 
-3. Initialize Database
-
+### 3. Initialize Database
 Run the SQL schema and queries:
-
+```bash
 sqlite3 events.db < db_init.sql
 sqlite3 events.db < queries.sql
+```
 
-4. Start the Server
+### 4. Start the Server
+```bash
 node server.js
+```
 
+The app will run on **http://localhost:3000** (or the port configured in `server.js`).
 
-The app will run on http://localhost:3000
- (or the port configured in server.js).
+---
 
-📊 Features
+## 📊 Features
+- Student event attendance tracking  
+- Popularity analysis by event  
+- Feedback collection and reporting  
+- Top-performing students analytics  
+- Mockup UI (`ui_mockup.html`)  
+- Pre-generated result screenshots  
 
-Student event attendance tracking
+---
 
-Popularity analysis by event
+## 🖼️ Screenshots
+| Popularity | Attendance | Feedback | Top Students |
+|------------|------------|----------|--------------|
+| ![Popularity](screenshots/popularity.png) | ![Attendance](screenshots/attendance.png) | ![Feedback](screenshots/feedback.png) | ![Top Students](screenshots/top_students.png) |
 
-Feedback collection and reporting
+---
 
-Top-performing students analytics
+## 📄 Documentation
+- **[design_doc.md](design_doc.md)** – System design and architecture  
+- **[reports.md](reports.md)** – Report analysis and findings  
 
-Mockup UI (ui_mockup.html)
+---
 
-Pre-generated result screenshots
+## ⚙️ Tech Stack
+- **Backend:** Node.js, Express  
+- **Database:** SQLite  
+- **Frontend:** HTML Mockup  
+- **Visualization:** SQL queries + charts  
 
-🖼️ Screenshots
-Popularity	Attendance	Feedback	Top Students
+---
 
-	
-	
-	
-📄 Documentation
+## 🤝 Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you’d like to change.  
 
-design_doc.md
- – System design and architecture
+---
 
-reports.md
- – Report analysis and findings
-
-⚙️ Tech Stack
-
-Backend: Node.js, Express
-
-Database: SQLite
-
-Frontend: HTML Mockup
-
-Visualization: SQL queries + charts
-
-🤝 Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you’d like to change.
-
-📜 License
-
-This project is licensed under the MIT License.
+## 📜 License
+This project is licensed under the MIT License.  
